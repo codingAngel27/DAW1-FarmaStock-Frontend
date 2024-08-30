@@ -16,6 +16,11 @@ import { LoginService } from './services/auth/login.service';
 import { JwtInterceptorService } from './services/auth/jwt-interceptor.service';
 import { ErrorInterceptorService } from './services/auth/error-interceptor.service';
 import { RegisterComponent } from './register/register.component';
+import { CrearComponent } from './proveedor/crear/crear.component';
+import { ProveedorComponent } from './proveedor/lista/proveedor.component';
+import { SolicitudCrearComponent } from './solicitud/crear/crear.component';
+import { ProveedorDetalleComponent } from './proveedor/detalle/detalle.component';
+import { SolicitudListaComponent } from './solicitud/lista/lista.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,12 @@ import { RegisterComponent } from './register/register.component';
     LoginComponent,
     NavComponent,
     PersonalDetailsComponent,
-    RegisterComponent
+    RegisterComponent,
+    CrearComponent,
+    ProveedorComponent,
+    SolicitudCrearComponent,
+    ProveedorDetalleComponent,
+    SolicitudListaComponent,
   ],
   imports: [
     BrowserModule,
